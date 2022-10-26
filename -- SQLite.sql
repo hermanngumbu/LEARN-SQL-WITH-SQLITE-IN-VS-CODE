@@ -113,4 +113,15 @@ SELECT * FROM recipe;
 --        '2022',
 --        TRUE
 --  );
- 
+/* BEGIN TRANSACTION;
+SELECT * FROM kda;
+
+DELETE FROM kda WHERE id = 1;
+
+SELECT * FROM kda;
+
+COMMIT TRANSACTION;
+
+SELECT * FROM kda;
+*/
+
